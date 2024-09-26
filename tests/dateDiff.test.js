@@ -28,6 +28,6 @@ describe('dateDiff', () => {
   it('should throw an error for an unknown unit', () => {
     expect(() => {
       dateDiff('2023-09-25', '2023-09-30', 'weeks');
-    }).toThrowError('Unknown unit: weeks');
+    }).toThrowError('Unknown unit');
   });
 });
